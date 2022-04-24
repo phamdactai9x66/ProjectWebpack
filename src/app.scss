@@ -1,0 +1,18 @@
+body {
+    background-color: transparent !important;
+}
+text {
+    color: red;
+}
+:root {
+    --bText: rgb(27, 13, 105);
+}
+body {
+    background-color: red;
+}
+img {
+    $sizeImage: 200px;
+    height: $sizeImage;
+    width: $sizeImage;
+    object-fit: cover;
+}
